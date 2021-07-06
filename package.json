@@ -1,7 +1,7 @@
 {
   "name": "@sintese/express-sequelize-resource",
-  "version": "1.0.0",
-  "description": "Especificação de rotas CRUD ExpressJS",
+  "version": "1.0.1",
+  "description": "Especificação de rotas CRUD ExpressJS com Sequelize",
   "main": "src/resource.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "express",
-    "crud"
+    "crud",
+    "sequelize"
   ],
   "author": "Rafael Becker (https://github.com/rafaelbeecker)",
   "license": "MIT",
