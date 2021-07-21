@@ -1,6 +1,6 @@
 {
   "name": "@sintese/express-sequelize-resource",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Especificação de rotas CRUD ExpressJS com Sequelize",
   "main": "src/resource.js",
   "repository": {
