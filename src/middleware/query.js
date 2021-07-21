@@ -18,7 +18,7 @@ const query = async (req, res, next) => {
         Object.keys(filters).forEach((prop) => {
             const {val, opr} = filters[prop];
             if (val === '') return;
-            where[prop] = {[Op[opr]]: opr === 'like' ? `%${val}%` : val};
+            where[prop] = {[Op[opr]]: ['like', 'iLike'].includes(opr) ? `%${val}%` : val};
         });
     }
 
