@@ -28,8 +28,11 @@ const paginate = async function (Model, options = {}) {
   const total = await Model.count();
   const entries = await Model.findAll(findAllOpts);
 
+  const rangeFrom = (findAllOpts.offset || 0) + 1;
+  const rangeTo = (rangeFrom) + limit - 1;
+
   const headers = {
-    'Content-Range': `${start}-${total < limit ? total : limit}/${total}`,
+    'Content-Range': `${rangeFrom}-${total < rangeTo ? total : rangeTo}/${total}`,
     status:
       total === 0 || Number(start) + Number(limit) >= total
         ? HttpStatus.OK
