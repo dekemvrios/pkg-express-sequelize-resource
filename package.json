@@ -1,11 +1,11 @@
 {
   "name": "@sintese/express-sequelize-resource",
-  "version": "1.0.3",
-  "description": "Especificação de rotas CRUD ExpressJS com Sequelize",
+  "version": "1.0.4",
+  "description": "Express Sequelize Resource",
   "main": "src/resource.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaelbeecker/express-sequelize-resource.git"
+    "url": "git+https://github.com/rafaelbeecker-typs/express-sequelize-resource.git"
   },
   "keywords": [
     "express",
@@ -20,7 +20,7 @@
     "sequelize": "^6.6.4"
   },
   "bugs": {
-    "url": "https://github.com/rafaelbeecker/express-sequelize-resource/issues"
+    "url": "https://github.com/rafaelbeecker-typs/express-sequelize-resource/issues"
   },
-  "homepage": "https://github.com/rafaelbeecker/express-sequelize-resource#readme"
+  "homepage": "https://github.com/rafaelbeecker-typs/express-sequelize-resource#readme"
 }
